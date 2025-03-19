@@ -39,7 +39,7 @@ def secret_code_comparison(human_input,computer_input):
 
 
 
-while game_running == True:
+if game_running == True:
     human_input()
     secret_code_comparison(player_1_input,computer_input)
 
